@@ -983,20 +983,6 @@ ${tampilUcapan} *${pushname}*
 
 
 ${atas} 
-${bates} 🌹 _Bot & Owner Info_ 
-${garis} *Nama Bot* : ${NamaBot}
-${garis} *Owner* : ${NamaOwner}
-${garis} *Tag Owner* : @${ptod.split('@')[0]}
-${garis} *Tag Bot* : @${utod.split('@')[0]}
-${garis} *Total Pc* : ${privat.length}
-${garis} *Total Gc* : ${groups.length}
-${garis} *Total Chat* : ${totalchat.length}
-${garis} *Total Hit* : ${totalhit}
-${garis} *Speed* : ${latensie.toFixed(4)} _sec_
-${garis} *Runtime* : ${runtime(process.uptime())}
-${garis} *Baterai* : ${baterai}
-${garis} *Cas* : ${charger}
-${garis}
 ${bates} 👤 _User Info_
 ${garis} *Nama* : ${pushname}
 ${garis} *Nomor* : wa.me/${stod.split('@')[0]}
@@ -1010,22 +996,17 @@ ${garis} *Wib* : ${wib}
 ${garis} *Wit* : ${wit}
 ${garis} *Wita* : ${wita}
 ${garis}
-${bawah}  
-${atas}
-${bates} 🌹 _Big Thanks To_
-${garis}
-${garis} *Tuhan Ku* 
-${garis} *Orang Tua Ku* [ TQ BGT ] 
-${garis} *Bailyes* [ TQ BGT ]
-${garis} *Heroku* [ WEB RUN BOT ]
-${garis} *Yudha* [ BASE ]
-${garis} *Nayla* [ TQ CASE NYA ]
-${garis} *Zeeone Ofc* [ TQ CASE NYA ] 
-${garis} *Nata* [ PEMBUAT BOT ]
-${garis} *${NamaOwner}* [ PENGEMBANG BOT ]
 ${bawah}   
 `            
 Sendbutdocument(from, allmenuuu, `${atas}
+${bates} *LAGU MENU*
+${garis + kotak} ${prefix}lemon
+${garis + kotak} ${prefix}opblackclover10
+${garis + kotak} ${prefix}whereveryouwouldcallme
+${garis + kotak} ${prefix}opblends
+${bawah}
+
+${atas}
 ${bates} *ADMIN MENU* 🤴
 ${garis + kotak} ${prefix}welcome < enable/disable >
 ${garis + kotak} ${prefix}antilink < on/off >
@@ -1095,195 +1076,11 @@ ${garis + kotak} ${prefix}robot < ReplyAudio/Vn >
 ${bawah}
 
 ${atas}
-${bates} *MAKER MENU* 🖼️
-${garis + kotak} ${prefix}halloween <text>
-${garis + kotak} ${prefix}rainbow <text>
-${garis + kotak} ${prefix}scfi <text>
-${garis + kotak} ${prefix}blue <text>
-${garis + kotak} ${prefix}juice <text>
-${garis + kotak} ${prefix}purple <text>
-${garis + kotak} ${prefix}toxic <text>
-${garis + kotak} ${prefix}peridot <text>
-${garis + kotak} ${prefix}metal <text>
-${garis + kotak} ${prefix}realistic <text>
-${garis + kotak} ${prefix}impressive <text>
-${garis + kotak} ${prefix}cracked <text>
-${garis + kotak} ${prefix}magma <text>
-${garis + kotak} ${prefix}thunder <text>
-${garis + kotak} ${prefix}berry <text>
-${garis + kotak} ${prefix}transformer <text>
-${garis + kotak} ${prefix}horror <text>
-${garis + kotak} ${prefix}metallic <text>
-${garis + kotak} ${prefix}circuit <text>
-${garis + kotak} ${prefix}sketch <text>
-${garis + kotak} ${prefix}lovelock <text>
-${garis + kotak} ${prefix}cemeterygates <text>
-${garis + kotak} ${prefix}planebanner <text>
-${garis + kotak} ${prefix}christmas <text>
-${garis + kotak} ${prefix}lightwriting <text>
-${garis + kotak} ${prefix}rugbyball <text>
-${garis + kotak} ${prefix}airballoon <text>
-${garis + kotak} ${prefix}fortunecookie <text>
-${garis + kotak} ${prefix}einstein <text>
-${garis + kotak} ${prefix}pendant <text>
-${garis + kotak} ${prefix}rustywriting <text>
-${garis + kotak} ${prefix}neonsign <text>
-${garis + kotak} ${prefix}beachsign <text>
-${garis + kotak} ${prefix}bracelet <text>
-${garis + kotak} ${prefix}nightmare <text>
-${garis + kotak} ${prefix}denimembroidery <text>
-${garis + kotak} ${prefix}lightgraffiti <text>
-${garis + kotak} ${prefix}arrowsigns  <2 text>
-${garis + kotak} ${prefix}birthdaycake <2 text>
-${garis + kotak} ${prefix}footballplayer <2 text>
-${garis + kotak} ${prefix}watercolor <2 text>
-${garis + kotak} ${prefix}neonwriting  <2 text>
-${garis + kotak} ${prefix}surfingboard <2 text>
-${garis + kotak} ${prefix}airline <2 text>
-${garis + kotak} ${prefix}chalkboard <2 text>
-${bawah}
-
-${atas}
 ${bates} *GAME MENU* 🎮
 ${garis + kotak} ${prefix}tictactoe @tag lawan
 ${garis + kotak} ${prefix}gelud @tag lawan
 ${garis + kotak} ${prefix}delsesittt
 ${garis + kotak} ${prefix}delsesigelud
-${bawah}
-
-${atas}
-${bates} *RANDOM TAG MENU* 🎰
-${garis + kotak} ${prefix}ganteng
-${garis + kotak} ${prefix}cantik
-${garis + kotak} ${prefix}jelek
-${garis + kotak} ${prefix}goblok
-${garis + kotak} ${prefix}bego
-${garis + kotak} ${prefix}pinter
-${garis + kotak} ${prefix}jago
-${garis + kotak} ${prefix}babi
-${garis + kotak} ${prefix}beban
-${garis + kotak} ${prefix}baik
-${garis + kotak} ${prefix}jahat
-${garis + kotak} ${prefix}anjing
-${garis + kotak} ${prefix}monyet
-${garis + kotak} ${prefix}haram
-${garis + kotak} ${prefix}kontol
-${garis + kotak} ${prefix}pakboy
-${garis + kotak} ${prefix}pakgirl
-${garis + kotak} ${prefix}sadboy
-${garis + kotak} ${prefix}sadgirl
-${garis + kotak} ${prefix}wibu
-${garis + kotak} ${prefix}nolep
-${garis + kotak} ${prefix}hebat
-${bawah}
-
-${atas}
-${bates} *V MENU* 👥
-${garis + kotak} ${prefix}vsadboy
-${garis + kotak} ${prefix}vpakboy
-${garis + kotak} ${prefix}vbaik
-${garis + kotak} ${prefix}vjago
-${garis + kotak} ${prefix}vjelek
-${garis + kotak} ${prefix}vcantik
-${garis + kotak} ${prefix}vpinter
-${garis + kotak} ${prefix}vbeban
-${garis + kotak} ${prefix}vkontol
-${garis + kotak} ${prefix}vhebat
-${garis + kotak} ${prefix}vwibu
-${garis + kotak} ${prefix}vharam
-${garis + kotak} ${prefix}vbabi
-${garis + kotak} ${prefix}vbego
-${garis + kotak} ${prefix}vganteng
-${garis + kotak} ${prefix}vanjing
-${garis + kotak} ${prefix}vmonyet
-${garis + kotak} ${prefix}vsadgirl
-${garis + kotak} ${prefix}vpakgirl
-${garis + kotak} ${prefix}vjahat
-${garis + kotak} ${prefix}vnolep
-${garis + kotak} ${prefix}vgoblok
-${bawah}
-
-${atas}
-${bates} *X MENU* 👥
-${garis + kotak} ${prefix}xsadboy <@tag>
-${garis + kotak} ${prefix}xpakboy <@tag>
-${garis + kotak} ${prefix}xbaik <@tag>
-${garis + kotak} ${prefix}xjago <@tag>
-${garis + kotak} ${prefix}xjelek <@tag>
-${garis + kotak} ${prefix}xcantik <@tag>
-${garis + kotak} ${prefix}xpinter <@tag>
-${garis + kotak} ${prefix}xbeban <@tag>
-${garis + kotak} ${prefix}xkontol <@tag>
-${garis + kotak} ${prefix}xhebat <@tag>
-${garis + kotak} ${prefix}xwibu <@tag>
-${garis + kotak} ${prefix}xharam <@tag>
-${garis + kotak} ${prefix}xbabi <@tag>
-${garis + kotak} ${prefix}xbego <@tag>
-${garis + kotak} ${prefix}xganteng <@tag>
-${garis + kotak} ${prefix}xanjing <@tag>
-${garis + kotak} ${prefix}xmonyet <@tag>
-${garis + kotak} ${prefix}xsadgirl <@tag>
-${garis + kotak} ${prefix}xpakgirl <@tag>
-${garis + kotak} ${prefix}xjahat <@tag>
-${garis + kotak} ${prefix}xnolep <@tag>
-${garis + kotak} ${prefix}xgoblok <@tag>
-${bawah}
-
-${atas}
-${bates} *Z MENU* 👥
-${garis + kotak} ${prefix}zsadboy
-${garis + kotak} ${prefix}zpakboy
-${garis + kotak} ${prefix}zbaik
-${garis + kotak} ${prefix}zjago
-${garis + kotak} ${prefix}zjelek
-${garis + kotak} ${prefix}zcantik
-${garis + kotak} ${prefix}zpinter
-${garis + kotak} ${prefix}zbeban
-${garis + kotak} ${prefix}zkontol
-${garis + kotak} ${prefix}zhebat
-${garis + kotak} ${prefix}zwibu
-${garis + kotak} ${prefix}zharam
-${garis + kotak} ${prefix}zbabi
-${garis + kotak} ${prefix}zbego
-${garis + kotak} ${prefix}zganteng
-${garis + kotak} ${prefix}zanjing
-${garis + kotak} ${prefix}zmonyet
-${garis + kotak} ${prefix}zsadgirl
-${garis + kotak} ${prefix}zpakgirl
-${garis + kotak} ${prefix}zjahat
-${garis + kotak} ${prefix}znolep
-${garis + kotak} ${prefix}zgoblok
-${bawah}
-
-${atas}
-${bates} *CEK MENU* ✔️
-${garis + kotak} ${prefix}gantengcek
-${garis + kotak} ${prefix}cantikcek
-${garis + kotak} ${prefix}jelekcek
-${garis + kotak} ${prefix}goblokcek
-${garis + kotak} ${prefix}begocek
-${garis + kotak} ${prefix}pintercek
-${garis + kotak} ${prefix}jagocek
-${garis + kotak} ${prefix}nolepcek
-${garis + kotak} ${prefix}babicek
-${garis + kotak} ${prefix}bebancek
-${garis + kotak} ${prefix}baikcek
-${garis + kotak} ${prefix}jahatcek
-${garis + kotak} ${prefix}anjingcek
-${garis + kotak} ${prefix}haramcek
-${garis + kotak} ${prefix}kontolcek
-${garis + kotak} ${prefix}pakboycek
-${garis + kotak} ${prefix}pakgirlcek
-${garis + kotak} ${prefix}sangecek
-${garis + kotak} ${prefix}bapercek
-${bawah}
-
-${atas}
-${bates} *LAGU MENU*
-${garis + kotak} ${prefix}lemon
-${garis + kotak} ${prefix}opblackclover10
-${garis + kotak} ${prefix}whereveryouwouldcallme
-${garis + kotak} ${prefix}opblends
 ${bawah}
 
 ${atas}
@@ -1297,13 +1094,11 @@ ${bawah}
 ${atas}
 ${bates} *OTHER MENU* 🔓
 ${garis + kotak} ${prefix}donasi
-${garis + kotak} ${prefix}runtime
 ${garis + kotak} ${prefix}speed
 ${garis + kotak} ${prefix}afk < alasan >
-${garis + kotak} ${prefix}rules
 ${bawah}
 
-    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`! owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'Upgrade'},type:1},{buttonId:`!script`,buttonText:{displayText:'Script'},type:1}], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`${FakeYt}`,mediaType:"2",thumbnail:fs.readFileSync('./media/yt.jpg'),mediaUrl:`https://youtu.be/x-0WHkv3uc`}}})
+    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`! owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'Upgrade'},type:1},{buttonId:`!script`,buttonText:{displayText:'Script'},type:1}], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true}})
             break
 
 
