@@ -989,13 +989,6 @@ ${garis} *Nomor* : wa.me/${stod.split('@')[0]}
 ${garis} *Tag* : @${stod.split('@')[0]}
 ${garis} *Bio* : ${stst}
 ${garis} *User Type* : ${isOwner ? 'OwnerBot' : isPremium ? 'Premium' : 'Free'}
-${garis}
-${bates} 🗓️ _Today Info_
-${garis} *Tanggal* : ${time} 
-${garis} *Wib* : ${wib} 
-${garis} *Wit* : ${wit}
-${garis} *Wita* : ${wita}
-${garis}
 ${bawah}   
 `            
 Sendbutdocument(from, allmenuuu, `${atas}
@@ -1004,6 +997,26 @@ ${garis + kotak} ${prefix}lemon
 ${garis + kotak} ${prefix}opblackclover10
 ${garis + kotak} ${prefix}whereveryouwouldcallme
 ${garis + kotak} ${prefix}opblends
+${bawah}
+
+${atas}
+${bates} *DOWNLOAD MENU* 📥
+${garis + kotak} ${prefix}ytmp3 < Link >
+${garis + kotak} ${prefix}ytmp4 < Link >
+${garis + kotak} ${prefix}tiktok < link >
+${garis + kotak} ${prefix}ttnowm < link >
+${garis + kotak} ${prefix}ttwm < link >
+${bawah}
+
+${atas}
+${bates} *SEARCHING MENU* 🔎
+${garis + kotak} ${prefix}pinterest < Query >
+${garis + kotak} ${prefix}playstore < nama apk >
+${garis + kotak} ${prefix}linkwa < nama gc >
+${garis + kotak} ${prefix}lirik < judul lagu >
+${garis + kotak} ${prefix}wikipedia < query >
+${garis + kotak} ${prefix}kbbi < query >
+${garis + kotak} ${prefix}kodepos < nama kota >
 ${bawah}
 
 ${atas}
@@ -1035,26 +1048,6 @@ ${garis + kotak} ${prefix}bc2
 ${garis + kotak} ${prefix}bcgc
 ${garis + kotak} ${prefix}bcgc2
 ${garis + kotak} ${prefix}clearall
-${bawah}
-
-${atas}
-${bates} *DOWNLOAD MENU* 📥
-${garis + kotak} ${prefix}ytmp3 < Link >
-${garis + kotak} ${prefix}ytmp4 < Link >
-${garis + kotak} ${prefix}tiktok < link >
-${garis + kotak} ${prefix}ttnowm < link >
-${garis + kotak} ${prefix}ttwm < link >
-${bawah}
-
-${atas}
-${bates} *SEARCHING MENU* 🔎
-${garis + kotak} ${prefix}pinterest < Query >
-${garis + kotak} ${prefix}playstore < nama apk >
-${garis + kotak} ${prefix}linkwa < nama gc >
-${garis + kotak} ${prefix}lirik < judul lagu >
-${garis + kotak} ${prefix}wikipedia < query >
-${garis + kotak} ${prefix}kbbi < query >
-${garis + kotak} ${prefix}kodepos < nama kota >
 ${bawah}
 
 ${atas}
@@ -1098,7 +1091,7 @@ ${garis + kotak} ${prefix}speed
 ${garis + kotak} ${prefix}afk < alasan >
 ${bawah}
 
-    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`! owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`!donasi`,buttonText:{displayText:'Upgrade'},type:1},{buttonId:`!script`,buttonText:{displayText:'Script'},type:1}], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true}})
+    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`.owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`.donasi`,buttonText:{displayText:'Upgrade'},type:1}, {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true}})
             break
 
 
