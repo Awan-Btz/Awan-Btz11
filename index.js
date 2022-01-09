@@ -1091,7 +1091,7 @@ ${garis + kotak} ${prefix}speed
 ${garis + kotak} ${prefix}afk < alasan >
 ${bawah}
 
-    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`.owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`.donasi`,buttonText:{displayText:'Upgrade'},type:1], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true}})
+    © *${NamaOwner}*`, fs.readFileSync('./media/Loli Hot.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('./media/pdf.jpg'), filename:`${FakePdf}`, pageCount: 9999999 }, [{buttonId:`.owner`,buttonText:{displayText:'Owner'},type:1},{buttonId:`.donasi`,buttonText:{displayText:'Upgrade'},type:1}], {quoted:floc3, contextInfo: { mentionedJid: [utod,stod,ptod], forwardingScore: 508, isForwarded: true}})
             break
 
 
